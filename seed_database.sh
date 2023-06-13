@@ -8,5 +8,5 @@ python3 manage.py migrate
 python3 manage.py makemigrations teatimeapi
 python3 manage.py migrate teatimeapi
 python3 manage.py loaddata tea_type
-python3 manage.py populate_data
-python3 manage.py update_category
+python3 manage.py loaddata teas
+

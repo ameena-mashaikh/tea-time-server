@@ -1,0 +1,590 @@
+[
+    {
+        "model": "teatimeapi.teas",
+        "pk": 1,
+        "fields": {
+            "name": "Black Tea",
+            "image": "https://commons.wikimedia.org/wiki/File:Cup_of_black_tea.JPG#/media/File:Cup_of_black_tea.JPG",
+            "origin": "China",
+            "tea_type": 1,
+            "caffeine": "40-120mg",
+            "description": "Black tea, also translated to red tea in various East Asian languages, is a type of tea that is more oxidized than other types",
+            "color": "red, amber",
+            "taste": "smoky, earthy, spicy, nutty, citrus, caramel, leather, fruity, and honey"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 2,
+        "fields": {
+            "name": "White Tea",
+            "image": "https://www.ohhowcivilized.com/wp-content/uploads/white-peony-tea-bai-mu-dan-8.jpg",
+            "origin": "East Asia",
+            "tea_type": 3,
+            "caffeine": "time/temperature based",
+            "description": "A style of tea that features young or minimally processed leaves of the Camellia sinensis plant",
+            "color": "light green or light yellow",
+            "taste": "floral, fresh, fruity, with a hint of cucumber or melon."
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 3,
+        "fields": {
+            "name": "Assam Tea",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Assam-Tee_SFTGFOP1.jpg",
+            "origin": "Assam, India",
+            "tea_type": 1,
+            "caffeine": "60-110mg",
+            "description": "",
+            "color": "deep-amber",
+            "taste": "The flavor can range from brisk, smokey, earthy, musky and strong to a lighter cup with chocolate, cocoa, or even sweet and spicy notes"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 4,
+        "fields": {
+            "name": "Darjeeling Tea",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Darjeeling%2C_India%2C_Darjeeling_tea_in_variety%2C_Black_tea.jpg/1920px-Darjeeling%2C_India%2C_Darjeeling_tea_in_variety%2C_Black_tea.jpg?20210606141050",
+            "origin": "India",
+            "tea_type": 1,
+            "caffeine": "50-120mg",
+            "description": "",
+            "color": "ranging from golden yellow to orange to deep red.",
+            "taste": "musky-sweet tasting notes similar to muscat wine"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 5,
+        "fields": {
+            "name": "Keemun",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Keemun-img1.jpg",
+            "origin": "China",
+            "tea_type": 1,
+            "caffeine": "25-45mg",
+            "description": "",
+            "color": "bright red",
+            "taste": "smooth, fruity, malty, unsweetened cocoa"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 6,
+        "fields": {
+            "name": "Lapsang Souchong",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Lapsang_Souchong.jpg/1024px-Lapsang_Souchong.jpg?20170625192109",
+            "origin": "Fujian Province, China",
+            "tea_type": 1,
+            "caffeine": "varying",
+            "description": "",
+            "color": "ranging from amber to caramel to deep red.",
+            "taste": "sweet, piney, smoky"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 7,
+        "fields": {
+            "name": "Dianhong Tea",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/GoldenDianHong.jpg/800px-GoldenDianHong.jpg?20071029183852",
+            "origin": "Yunnan Province, China",
+            "tea_type": 1,
+            "caffeine": "20-40mg",
+            "description": "",
+            "color": "golden orange",
+            "taste": "sweet, floral, and honey-like, though tends to be stronger and more bitter than other red teas"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 8,
+        "fields": {
+            "name": "Sencha Tea",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/2017_Kagoshima_sencha.jpg/1024px-2017_Kagoshima_sencha.jpg?20170624211809",
+            "origin": "Japan",
+            "tea_type": 2,
+            "caffeine": "20-40mg",
+            "description": "A Japanese green tea prepared by infusing whole tea leaves in hot water.",
+            "color": "light green",
+            "taste": "fresh, herbal, or grassy flavor, which can have varying vegetal grassy notes depending on how long it is steeped."
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 9,
+        "fields": {
+            "name": "Matcha Tea",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Matcha_Scoop.jpg/1024px-Matcha_Scoop.jpg?20190105233506",
+            "origin": "China",
+            "tea_type": 2,
+            "caffeine": "20-90mg",
+            "description": "A finely ground powder of specially grown and processed green tea leaves, traditionally consumed in East Asia.",
+            "color": "green, dark green",
+            "taste": "vegetal grassy notes, natural sweet nuttiness, a touch of bitterness with a pleasant savory ending"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 10,
+        "fields": {
+            "name": "Bancha",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Shizuoka_bancha.jpg",
+            "origin": "Japan",
+            "tea_type": 2,
+            "caffeine": "~10mg",
+            "description": "Tea that is harvested from the same tea tree as sencha grade, but it is plucked later than sencha is. Can be found in a number of forms such as roasted, unroasted, smoked, etc.",
+            "color": "light green to green-orange",
+            "taste": "mild, earthy grassiness, with dry, toasty notes with less of a deeply vegetal, umami flavor"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 11,
+        "fields": {
+            "name": "Gyokuro",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Gyokuro_img_0067.jpg/480px-Gyokuro_img_0067.jpg",
+            "origin": "Japan",
+            "tea_type": 2,
+            "caffeine": "~35mg",
+            "description": "A type of shaded green tea from Japan. It differs from the standard sencha (a classic unshaded green tea) in being grown under the shade rather than the full sun.",
+            "color": "ranging from light green to dark green",
+            "taste": "very full-bodied, with a taste reminiscent to seaweed and grasses, followed by an intense sweetness"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 12,
+        "fields": {
+            "name": "Kukicha",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Kukicha.jpg/480px-Kukicha.jpg",
+            "origin": "Japan",
+            "tea_type": 2,
+            "caffeine": "1-5mg",
+            "description": "A Japanese blend made of stems, stalks, and twigs. It is available as a green tea or in more oxidised processing",
+            "color": "very pale, yellow-green,",
+            "taste": "mildly nutty and slightly creamy sweet flavour"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 13,
+        "fields": {
+            "name": "Hojicha",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Houjicha.jpg/360px-Houjicha.jpg",
+            "origin": "Kyoto, Japan",
+            "tea_type": 2,
+            "caffeine": "5-10mg",
+            "description": "A Japanese green tea that is roasted in a porcelain pot over charcoal",
+            "color": "distinctive clear red appearance",
+            "taste": "naturally sweet taste and smoky flavor with distinct notes of cocoa"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 14,
+        "fields": {
+            "name": "Green Tea",
+            "image": "https://tea-api-boonaki.herokuapp.com/assets/green.jpg",
+            "origin": "China",
+            "tea_type": 2,
+            "caffeine": "~10mg",
+            "description": "Made from unoxidized leaves, Green tea is one of the least processed types of tea, offering high levels of antioxidants.",
+            "color": "varying shades of green",
+            "taste": "sweet, bittersweet, nutty, vegetal, buttery, floral, fruity, oceanic"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 15,
+        "fields": {
+            "name": "Da Hong Pao",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Da_Hong_Pao_Oolong_tea_leaf.jpg",
+            "origin": "China",
+            "tea_type": 4,
+            "caffeine": "20-30mg",
+            "description": "A Wuyi rock tea grown in the Wuyi Mountains of Fujian Province, China",
+            "color": "orange-yellow, bright and clear",
+            "taste": "peaty and earthy notes with hints of stone fruit, brown sugar, and molasses"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 16,
+        "fields": {
+            "name": "Shui Jin Gui",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Shui_Jin_Gui_Oolong_tea_leaf.jpg",
+            "origin": "China",
+            "tea_type": 4,
+            "caffeine": "20-30mg",
+            "description": "A Wuyi oolong tea from Mount Wuyi, Fujian, China",
+            "color": "bright green",
+            "taste": "sweet, floral"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 17,
+        "fields": {
+            "name": "Tieguanyin",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Tieguanyin2.jpg/640px-Tieguanyin2.jpg",
+            "origin": "China",
+            "tea_type": 4,
+            "caffeine": "12-14mg",
+            "description": "A variety of oolong tea that was originated during the 19th century",
+            "color": "bright emerald to bright yellow",
+            "taste": "roasted, nutty, creamy, fruity, toasty, honey, floral, fresh, vegetal and mineral"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 18,
+        "fields": {
+            "name": "Shui Xian",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Shui_Xian.jpg/600px-Shui_Xian.jpg",
+            "origin": "China",
+            "tea_type": 4,
+            "caffeine": "10-20mg",
+            "description": "Heavy Wuyi tea, the darkest of the dark oolongs from Wuyi.",
+            "color": "Deep amber",
+            "taste": "Mellow and delicate, the liquid is rich and complicated, with lingering fragrance in mouth"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 19,
+        "fields": {
+            "name": "Tieluohan",
+            "image": "https://tea-api-boonaki.herokuapp.com/assets/tieluohan.jpg",
+            "origin": "China",
+            "tea_type": 4,
+            "caffeine": "20-30mg",
+            "description": "Grown on the cliffs of the Wuyi Mountains in China, Tieluohan is a light tea with high regards due to legends",
+            "color": "clear brown",
+            "taste": "strong robust taste with a little bitterness"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 20,
+        "fields": {
+            "name": "Huangjin Gui",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Huang_Jin_Gui_Tea.jpeg/640px-Huang_Jin_Gui_Tea.jpeg",
+            "origin": "China",
+            "tea_type": 4,
+            "caffeine": "0",
+            "description": "A premium variety of Chinese oolong tea named after the yellow golden color of its budding leaves and its unique flowery aroma",
+            "color": "light yellow to light green",
+            "taste": "smooth sweet flavor with a rich slightly nutty after-taste"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 21,
+        "fields": {
+            "name": "Wulong (oolong) Tea",
+            "image": "",
+            "origin": "East Asia",
+            "tea_type": 4,
+            "caffeine": "37-55mg",
+            "description": "A traditional semi-oxidized Chinese tea produced through a process including withering the plant under strong sun and oxidation before curling and twisting",
+            "color": "bright green or yellow, or dark amber and red",
+            "taste": "Similar to black tea, though varied oxidation levels results in widely varied tastes"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 22,
+        "fields": {
+            "name": "Dòng Dǐng",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Dong_Ding_tea.jpg/640px-Dong_Ding_tea.jpg",
+            "origin": "Taiwan",
+            "tea_type": 4,
+            "caffeine": "50-60mg",
+            "description": "An oolong tea from Taiwan which translates to \"Frozen Summit\" or \"Icy Peak\", and is the name of the mountain in Taiwan where the tea is cultivated",
+            "color": "dark, army-green color with slight hints of brown",
+            "taste": "Conatins nutty notes, along with a smooth caramel-like flavor"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 23,
+        "fields": {
+            "name": "Dongfang Meiren",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Dun-fan-mey-zhen-teashopby.jpg/640px-Dun-fan-mey-zhen-teashopby.jpg",
+            "origin": "Taiwan",
+            "tea_type": 4,
+            "caffeine": "50-90mg",
+            "description": "A heavily oxidized, non-roasted, tip-type oolong tea originating in Hsinchu County, Taiwan",
+            "color": "sweet-tasting ",
+            "taste": "bright reddish-orange"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 24,
+        "fields": {
+            "name": "Ruan Zhi Oolong",
+            "image": "https://tea-api-boonaki.herokuapp.com/assets/ruanzhi.jpg",
+            "origin": "Taiwan",
+            "tea_type": 4,
+            "caffeine": "50-90mg*",
+            "description": "Ruan Zhi, or \"soft stem\", is a variety of oolong tea developed by the Taiwan Tea Experiment Station ",
+            "color": "light amber",
+            "taste": "oily flowery taste, with cherry tones."
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 25,
+        "fields": {
+            "name": "Baozhong",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Spring_pouchong_tea_leaves_on_plate.jpg/640px-Spring_pouchong_tea_leaves_on_plate.jpg",
+            "origin": "China",
+            "tea_type": 4,
+            "caffeine": "20-30mg",
+            "description": "A lightly oxidized tea, twist shape, with floral notes, and usually not roasted",
+            "color": "mix of pale honey yellow and jade green, bright in color, and clear",
+            "taste": "grassy, floral notes and the taste of creamy green melon."
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 26,
+        "fields": {
+            "name": "Jin Xuan",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Jin_Xuan_oolong_tea.jpg/480px-Jin_Xuan_oolong_tea.jpg",
+            "origin": "Taiwan",
+            "tea_type": 4,
+            "caffeine": "10-20mg",
+            "description": "A variety of oolong tea developed in 1980",
+            "color": "dark yellow",
+            "taste": "taste is light, creamy, and flowery and sometimes compared to milk"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 27,
+        "fields": {
+            "name": "Assam Smoked Oolong",
+            "image": "https://tea-api-boonaki.herokuapp.com/assets/assam-smokedoolong.jpg",
+            "origin": "China",
+            "tea_type": 4,
+            "caffeine": "NA",
+            "description": "Assam Smoked Oolong is a highly unusual and rare oak smoked tea from Mothola Tea Estate in Assam. ",
+            "color": "amber red",
+            "taste": "oaky, smokey, sweet, malty, has notes of apricots and tobacco"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 28,
+        "fields": {
+            "name": "Baihoi Yinzhen",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/2010_FirstFlush_Yunnan_Baihao_Yinzhen.jpg/640px-2010_FirstFlush_Yunnan_Baihao_Yinzhen.jpg",
+            "origin": "China",
+            "tea_type": 3,
+            "caffeine": "0-5mg",
+            "description": "A white tea made from only the top buds of the Camellia sinensis plant.",
+            "color": "light orange, light yellow",
+            "taste": "sweet, vegetal, and delicate"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 29,
+        "fields": {
+            "name": "Baimudan tea",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Baimudan.JPG/640px-Baimudan.JPG",
+            "origin": "China",
+            "tea_type": 3,
+            "caffeine": "15-30mg",
+            "description": "A type of white tea made from plucks each with one leaf shoot and two immediate young leaves (one bud two leaf ratio) of the Camellia sinensis plant.",
+            "color": "golden yellow",
+            "taste": " toasty, slightly sweet floral notes and a clean aftertaste."
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 30,
+        "fields": {
+            "name": "Shoumei tea",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Shou_Mei_tea.JPG/640px-Shou_Mei_tea.JPG",
+            "origin": "China",
+            "tea_type": 3,
+            "caffeine": "15-30mg",
+            "description": "A type of white tea produced from naturally withered upper leafs and tips",
+            "color": "darker green",
+            "taste": "sweet, vegetal, delicate"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 31,
+        "name": "Xue Ya",
+        "fields": {
+            "image": "https://tea-api-boonaki.herokuapp.com/assets/xueya.jpg",
+            "origin": "China",
+            "tea_type": 3,
+            "caffeine": "15-30mg",
+            "description": "A complex white tea from Fuding in Fujian Province",
+            "color": "light yellow",
+            "taste": "smooth, juicy taste has clean notes of unripe fruits, light wood and just a touch of vegetal astringency."
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 32,
+        "fields": {
+            "name": "Satemwa Antlers",
+            "image": "https://tea-api-boonaki.herokuapp.com/assets/satemwa-antlers.jpg",
+            "origin": "Malawi",
+            "tea_type": 3,
+            "caffeine": "10-25mg",
+            "description": "A white tea made from a blend of select Superior Cultivars from Malawi, making it rich in theanine and antioxidants.",
+            "color": "golden yellow",
+            "taste": "delicate sweetness of apricot and lychee lingers on the pallet"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 33,
+        "fields": {
+            "name": "Earl Grey",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Earl_Grey_Tea.jpg/640px-Earl_Grey_Tea.jpg",
+            "origin": "UK*",
+            "tea_type": 5,
+            "caffeine": "40-120mg",
+            "description": "A tea blend which has been flavoured with oil of bergamot",
+            "color": "amber, deep orange",
+            "taste": "smoky, earthy, spicy, nutty, citrus, caramel, leather, fruity, and honey"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 34,
+        "fields": {
+            "name": "Konacha",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Konacha.jpg/640px-Konacha.jpg",
+            "origin": "Japan",
+            "tea_type": 2,
+            "caffeine": "based on plant growth",
+            "description": "A type of green tea, composed of the dust, tea buds and small leaves that are left behind after processing Gyokuro or Sencha",
+            "color": "intense green, deep green",
+            "taste": "mild, sweet, and grassy flavor with bitter after taste"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 35,
+        "fields": {
+            "name": "English Breakfast tea",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/English_breakfast_tea_tin.jpg/536px-English_breakfast_tea_tin.jpg",
+            "origin": "UK",
+            "tea_type": 5,
+            "caffeine": "60-100mg",
+            "description": "a traditional blend of black teas from Assam, Ceylon, Keemun and Kenyan teas.",
+            "color": "deep amber",
+            "taste": "may be slightly sweet, bitter, or malty"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 36,
+        "fields": {
+            "name": "Masala Chai",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Contents_of_a_bag_of_chai_tea.jpg/640px-Contents_of_a_bag_of_chai_tea.jpg",
+            "origin": "India",
+            "tea_type": 5,
+            "caffeine": "40-50mg",
+            "description": "An Indian tea beverage made by boiling black tea in milk and water with a mixture of aromatic herbs and spices",
+            "color": "brown, beige",
+            "taste": "fragrant, spiced, astringent and a strong flavor"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 37,
+        "fields": {
+            "name": "Irish Breakfast",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Milk_in_Irish_Breakfast_tea.jpg/480px-Milk_in_Irish_Breakfast_tea.jpg",
+            "origin": "UK",
+            "tea_type": 5,
+            "caffeine": "60-100mg",
+            "description": "A traditional blend of black teas from Assam and Ceylon teas. Because of its strength, it is most commonly served with milk.",
+            "color": "red, deep amber",
+            "taste": "Strong, malty, robust"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 38,
+        "fields": {
+            "name": "Russian Caravan",
+            "image": "https://tea-api-boonaki.herokuapp.com/assets/russiancaravan.jpg",
+            "origin": "China",
+            "tea_type": 5,
+            "caffeine": "20-60mg",
+            "description": "A chinese tea blended with various oolong and black teas that gets its name from tea trading through a traderoute that connected eastern Asia to Europe through Russia",
+            "color": "red, deep orange",
+            "taste": "sweet, malty, and smoky taste"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 39,
+        "fields": {
+            "name": "Bai Jiguan",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bai_Jiguan.jpg/600px-Bai_Jiguan.jpg",
+            "origin": "China",
+            "tea_type": 4,
+            "caffeine": "20-30mg",
+            "description": "A light Wuyi Mountain tea",
+            "color": "yellowish to light green",
+            "taste": "starts off sweet, uniquely fruity with a toasty floral honeyed aroma and finishes with a lingering mellow fruit and honey note"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 40,
+        "fields": {
+            "name": "Genmaicha",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Genmaicha.JPG/640px-Genmaicha.JPG",
+            "origin": "Japan",
+            "tea_type": 5,
+            "caffeine": "10mg",
+            "description": "A Japanese brown rice green tea consisting of green tea mixed with roasted popped brown rice.",
+            "color": "light yellow-green",
+            "taste": "toasty, nutty"
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 41,
+        "fields": {
+            "name": "Lady Grey",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/TwiningsLadyGrey_low.jpg/640px-TwiningsLadyGrey_low.jpg",
+            "origin": "UK*",
+            "tea_type": 5,
+            "caffeine": "25-110mg",
+            "description": "Lady Grey tea is a trademarked variation on Earl Grey tea. Like Earl Grey, it is a black tea flavoured with bergamot essential oil.",
+            "color": "lighter amber, orange",
+            "taste": ""
+        }
+    },
+    {
+        "model": "teatimeapi.teas",
+        "pk": 42,
+        "fields": {
+            "name": "Jasmine Dragon Pearl",
+            "image": "https://tea-api-boonaki.herokuapp.com/assets/jasminedragon.jpg",
+            "origin": "China",
+            "tea_type": 5,
+            "caffeine": "10-20mg",
+            "description": "Dragon Pearl Jasmine is comprised of little, hand-rolled pearls gently infused with jasmine flowers",
+            "color": "clear light yellow",
+            "taste": "Jasmine, root beer, sweet, but yet a light/subtle feeling."
+        }
+    }
+]

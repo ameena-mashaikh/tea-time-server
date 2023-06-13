@@ -2,10 +2,10 @@
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from teatimeapi.models import TeaDetails
+from teatimeapi.models import Teas
 
 
-class TeaDetailView(ViewSet):
+class TeaView(ViewSet):
     """Tea Detail view"""
 
     def list(self, request):
@@ -14,16 +14,16 @@ class TeaDetailView(ViewSet):
         Returns:
             Response -- JSON serialized event
         """
-        teas = TeaDetails.objects.all()
+        teas = Teas.objects.all()
 
         serializer = TeaSerializer(teas, many=True)
         return Response(serializer.data)
 
     def retrieve(self, request, pk):
-        """Handle GET requests for single cocktail
+        """Handle GET requests for single tea
         Returns:
-        Response -- JSON serialized cocktail"""
-        tea = TeaDetails.objects.get(id=pk)
+        Response -- JSON serialized tea"""
+        tea = Teas.objects.get(id=pk)
         serializer = TeaSerializer(tea)
         return Response(serializer.data)
 
@@ -31,9 +31,6 @@ class TeaDetailView(ViewSet):
 class TeaSerializer(serializers.ModelSerializer):
     """JSON Serializer for Teas"""
     class Meta:
-        model = TeaDetails
+        model = Teas
         fields = ("id", "name", "image", "origin", "tea_type",
                   "caffeine", "description", "color", "taste", )
-# "tea_type_num",
-# tea_id = models.ForeignKey(
-        # "TeaListing", on_delete=models.CASCADE, related_name="tea_listing")

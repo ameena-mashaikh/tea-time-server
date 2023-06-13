@@ -19,11 +19,11 @@ from django.conf.urls import include
 from django.contrib import admin
 from django.conf.urls import include
 from rest_framework import routers
-from teatimeapi.views import TeaListingView, TeaDetailView
+from teatimeapi.views import TeaView
 
 router = routers.DefaultRouter(trailing_slash=False)
-router.register(r'teas', TeaListingView, 'tea')
-router.register(r'tea_details', TeaDetailView, 'tea_detail')
+# router.register(r'teas', TeaListingView, 'tea')
+router.register(r'teas', TeaView, 'tea')
 
 
 urlpatterns = [
