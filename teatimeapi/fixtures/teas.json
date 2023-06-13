@@ -453,7 +453,7 @@
         "fields": {
             "name": "Earl Grey",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Earl_Grey_Tea.jpg/640px-Earl_Grey_Tea.jpg",
-            "origin": "UK*",
+            "origin": "UK",
             "tea_type": 5,
             "caffeine": "40-120mg",
             "description": "A tea blend which has been flavoured with oil of bergamot",
@@ -565,7 +565,7 @@
         "fields": {
             "name": "Lady Grey",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/TwiningsLadyGrey_low.jpg/640px-TwiningsLadyGrey_low.jpg",
-            "origin": "UK*",
+            "origin": "UK",
             "tea_type": 5,
             "caffeine": "25-110mg",
             "description": "Lady Grey tea is a trademarked variation on Earl Grey tea. Like Earl Grey, it is a black tea flavoured with bergamot essential oil.",

@@ -19,12 +19,12 @@ from django.conf.urls import include
 from django.contrib import admin
 from django.conf.urls import include
 from rest_framework import routers
-from teatimeapi.views import TeaView
+from teatimeapi.views import TeaView, TeaTypeView
 
 router = routers.DefaultRouter(trailing_slash=False)
 # router.register(r'teas', TeaListingView, 'tea')
 router.register(r'teas', TeaView, 'tea')
-
+router.register(r'teatypes', TeaTypeView, 'teatype')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

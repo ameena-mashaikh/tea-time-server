@@ -23,7 +23,7 @@ class TeaView(ViewSet):
         """Handle GET requests for single tea
         Returns:
         Response -- JSON serialized tea"""
-        tea = Teas.objects.get(id=pk)
+        tea = Teas.objects.get(pk=pk)
         serializer = TeaSerializer(tea)
         return Response(serializer.data)
 

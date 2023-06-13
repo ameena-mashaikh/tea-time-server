@@ -3,35 +3,40 @@
         "model": "teatimeapi.teatype",
         "pk": 1,
         "fields": {
-            "tea_type": "Black"
+            "tea_type": "Black",
+            "image": "https://hips.hearstapps.com/hmg-prod/images/directly-above-shot-of-tea-on-table-royalty-free-image-1668551187.jpg?crop=0.747xw:1.00xh;0.0401xw,0&resize=1200:*"
         }
     },
     {
         "model": "teatimeapi.teatype",
         "pk": 2,
         "fields": {
-            "tea_type": "Green"
+            "tea_type": "Green",
+            "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/green-tea_400-237a32b.jpg?quality=90&resize=400,363"
         }
     },
     {
         "model": "teatimeapi.teatype",
         "pk": 3,
         "fields": {
-            "tea_type": "White"
+            "tea_type": "White",
+            "image": "https://images.squarespace-cdn.com/content/v1/5947d3d137c5812feb97ec13/1510942505085-1CRXJV3MA7V7JRAQGO8G/Silver+Needle.jpg?format=2500w"
         }
     },
     {
         "model": "teatimeapi.teatype",
         "pk": 4,
         "fields": {
-            "tea_type": "Oolong"
+            "tea_type": "Oolong",
+            "image": "https://www.spiceandtea.com/media/catalog/product/cache/fb0a90b8e26ceb5370e874c9b332d3b2/s/k/sku-587_1.jpg"
         }
     },
     {
         "model": "teatimeapi.teatype",
         "pk": 5,
         "fields": {
-            "tea_type": "Blend"
+            "tea_type": "Blend",
+            "image": "https://www.kuchatea.com/prod_img/2947005364348525.jpg"
         }
     }
 ]
